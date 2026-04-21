@@ -45,15 +45,7 @@ export default function HeroSection() {
     <section className="relative overflow-hidden pt-36 pb-20 md:pt-40 md:pb-28 px-6">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-14 items-center">
         <div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
-            className="inline-flex items-center gap-2 bg-white/90 border border-sand-200 text-midnight text-sm px-4 py-2 rounded-full mb-8 font-body font-semibold"
-          >
-            <Sparkles size={14} className="text-terracotta-500" />
-            Layla-style travel concierge
-          </motion.div>
+    
 
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
