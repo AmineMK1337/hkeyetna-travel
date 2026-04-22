@@ -7,17 +7,17 @@ import { ArrowDown, Play, Star, MapPin, Clock3, Compass } from 'lucide-react';
 
 const HERO_IMAGES = [
   {
-    url: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80',
+    url: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Sidi_Chebaan.jpg',
     place: 'Sidi Bou Saïd',
     region: 'Grand Tunis',
   },
   {
-    url: 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
+    url: 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Tunisia_10-12_-_064_-_Douz_and_the_Festival_of_the_Sahara_%286609290791%29.jpg',
     place: 'Désert de Douz',
     region: 'Sahara Tunisien',
   },
   {
-    url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80',
+    url: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Djerba_Island.jpeg',
     place: 'Île de Djerba',
     region: 'Médenine',
   },

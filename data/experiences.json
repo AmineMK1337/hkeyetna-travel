@@ -11,7 +11,7 @@
     "rating": 4.4,
     "lat": 37.2741,
     "lng": 9.8732,
-    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Port_of_Bizerte.jpg",
     "description": "Promenade entre pont mobile, façades colorées et histoire maritime de la ville.",
     "included": [
       "guide",
@@ -37,7 +37,7 @@
     "rating": 4.8,
     "lat": 37.1642,
     "lng": 9.6722,
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ichkeul_lake.jpg",
     "description": "Observation guidée des flamants roses et des oiseaux migrateurs dans l'un des écosystèmes les plus précieux de Tunisie.",
     "included": [
       "guide nature",
@@ -64,7 +64,7 @@
     "rating": 4.7,
     "lat": 37.1641,
     "lng": 9.6728,
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ichkeul_lake.jpg",
     "description": "Sortie matinale pour profiter des lumières douces et de la biodiversité du parc.",
     "included": [
       "guide nature",
@@ -91,7 +91,7 @@
     "rating": 4.3,
     "lat": 36.4229,
     "lng": 9.2194,
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Dougga_capitole_2006.jpg",
     "description": "Visite ludique du site avec défis d’observation et récits accessibles aux enfants.",
     "included": [
       "carnet",
@@ -118,7 +118,7 @@
     "rating": 4.9,
     "lat": 36.4228,
     "lng": 9.2192,
-    "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Dougga_capitole_2006.jpg",
     "description": "Visite archéologique en fin d'après-midi au milieu des temples, du théâtre et des vestiges romains dominant la vallée.",
     "included": [
       "guide culturel",
@@ -145,7 +145,7 @@
     "rating": 4.5,
     "lat": 36.4225,
     "lng": 9.219,
-    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Dougga_capitole_2006.jpg",
     "description": "Rencontre avec producteurs d’huile d’olive et lecture des paysages agricoles du nord-ouest.",
     "included": [
       "dégustation",
