@@ -34,10 +34,33 @@ npm install
 ```
 
 ### 3. Variables d'environnement
-Créez un fichier `.env.local` :
+Créez un fichier `.env.local` à la racine du projet avec les variables suivantes :
+
 ```env
-GEMINI_API_KEY=AIza_votre_cle_ici
+# Supabase — utilisé côté client
+NEXT_PUBLIC_SUPABASE_URL=https://votre-projet.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_votre_cle_anon
+
+# Supabase — utilisé côté serveur pour les scripts de seed
+SUPABASE_SERVICE_ROLE_KEY=sb_secret_votre_service_role_key
+
+# Gemini — utilisé pour le générateur de voyage et le chatbot
+GEMINI_API_KEY=AIza_votre_cle_gemini
 ```
+
+Contenu attendu :
+
+- `NEXT_PUBLIC_SUPABASE_URL` : URL de votre projet Supabase
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY` : clé publique Supabase utilisée par l'application côté navigateur
+- `SUPABASE_SERVICE_ROLE_KEY` : clé serveur utilisée pour les scripts de seed et les opérations sensibles
+- `GEMINI_API_KEY` : clé Google Gemini utilisée par les routes `/api/generate-trip` et `/api/chat`
+
+Notes :
+
+- le fichier doit s'appeler exactement `.env.local`
+- ne mettez jamais vos vraies clés dans le `README`
+- ne committez pas `.env.local` dans Git
+- si vous utilisez déjà `GOOGLE_API_KEY`, le projet accepte aussi ce nom comme fallback pour Gemini, mais `GEMINI_API_KEY` reste le nom recommandé
 
 ### 4. Lancer en développement
 ```bash
